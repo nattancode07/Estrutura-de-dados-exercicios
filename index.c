@@ -25,3 +25,24 @@ int matriz[3][3] = {
 
 /*Classes são uma evolução das structs oferencendo funcionalidades mais avançadas
 como métodos, encapsulamento e herança.*/
+
+/*Registros*/
+
+/*Registros contem todos os dados para identificar uma entidade do mundo real,
+e que em computação são representados por variáveis.*/
+
+struct Aluno  {
+  char nome[100];
+  int matricula;
+  char nascimento[11];
+  char sexo;
+  char telefone[15];
+  char email[100];
+};
+
+/*declaração de struct*/
+
+struct Aluno;
+
+/*Estrutura Aninhada*/
+
