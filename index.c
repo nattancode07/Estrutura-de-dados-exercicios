@@ -46,3 +46,13 @@ struct Aluno;
 
 /*Estrutura Aninhada*/
 
+struct Motor {
+  int potencia;
+  char tipo[20];
+};
+
+struct Carro {
+  char modelo[50];
+  int ano;
+  struct Motor motor;
+};
